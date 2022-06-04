@@ -24,7 +24,7 @@ import javax.persistence.Table;
 public class Zaposlenik {
     
     @Id                                                     // kljuc
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)     // autoinkrement
     private Long id;
     
     private String ime;               // za svako privatno svojstvo (koje ima pripadajuci getter & setter)
