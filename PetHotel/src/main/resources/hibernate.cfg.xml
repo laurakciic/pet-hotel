@@ -51,6 +51,6 @@
         <mapping class="laurakciic.pethotel.model.Smjestaj" />
         <mapping class="laurakciic.pethotel.model.Zivotinja" />
         <mapping class="laurakciic.pethotel.model.Usluga" />              
-         
+        <mapping class="laurakciic.pethotel.model.Administrator" /> 
     </session-factory>
 </hibernate-configuration>
