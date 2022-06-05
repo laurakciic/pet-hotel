@@ -1,5 +1,6 @@
 
 import laurakciic.pethotel.utility.HibernateUtil;
+import laurakciic.pethotel.utility.PocetniInsert;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -13,6 +14,8 @@ import laurakciic.pethotel.utility.HibernateUtil;
  */
 public class Start {
     public static void main(String[] args) {
-        HibernateUtil.getSessionFactory().openSession();
+        //HibernateUtil.getSessionFactory().openSession();
+        
+        PocetniInsert.izvedi();     // nije potreban openSession jer je sadrzan u izvedi()
     }
 }
