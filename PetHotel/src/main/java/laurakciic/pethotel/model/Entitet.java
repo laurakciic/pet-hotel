@@ -15,12 +15,14 @@ import javax.persistence.MappedSuperclass;
  * @author Laura
  */
 
-// nasljedivat ce ju ostale 
-// nema tablicu 
+// MappedSuperClass - nasljedivat ce ju ostale 
+// nema tablicu - ne pisemo @Entity
+// abstract - jer ju necemo koristiti pa dajemo do znanja da se ne moze koristiti
+// instanca ove klase nego neke klase koja nasljeduje abstract Entitet klasu
 
-@MappedSuperclass
-public class Entitet {
-    
+@MappedSuperclass                   
+public abstract class Entitet {     
+                                    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -5,6 +5,7 @@
  */
 package laurakciic.pethotel.model;
 
+import java.math.BigDecimal;
 import javax.persistence.Entity;
 
 /**
@@ -13,17 +14,28 @@ import javax.persistence.Entity;
  */
 
 @Entity
-public class VlasnikZivotinje extends Osoba{               
- 
+public class Zaposlenik extends Osoba{   
+                                       
+    // za svako privatno svojstvo (koje ima pripadajuci getter & setter)
+    // kreira se kolona u tablici 
+    
     private String oib;
-
+    private BigDecimal placa;
+    
+    // po principu ucahurivanja
+    
     public String getOib() {
         return oib;
     }
-
     public void setOib(String oib) {
         this.oib = oib;
     }
-  
+    public BigDecimal getPlaca() {
+        return placa;
+    }
+    public void setPlaca(BigDecimal placa) {
+        this.placa = placa;
+    }
+    
     
 }
