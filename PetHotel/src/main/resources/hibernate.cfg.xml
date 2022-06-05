@@ -49,6 +49,8 @@
         <mapping class="laurakciic.pethotel.model.VlasnikZivotinje" />
         <mapping class="laurakciic.pethotel.model.Zaposlenik" />
         <mapping class="laurakciic.pethotel.model.Smjestaj" />
-        
+        <mapping class="laurakciic.pethotel.model.Zivotinja" />
+        <mapping class="laurakciic.pethotel.model.Usluga" />              
+         
     </session-factory>
 </hibernate-configuration>
