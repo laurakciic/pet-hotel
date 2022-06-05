@@ -46,7 +46,7 @@
         
         
         <!-- Ovdje navodimo naše mapirane klase, tu ne stavljamo one MappedSuperclass -->
-        <mapping class="laurakciic.pethotel.model.Zaposlenik" />
+        <mapping class="laurakciic.pethotel.model.VlasnikZivotinje" />
         
     </session-factory>
 </hibernate-configuration>
