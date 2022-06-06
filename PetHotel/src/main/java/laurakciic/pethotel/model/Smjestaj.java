@@ -20,7 +20,7 @@ public class Smjestaj extends Entitet{
     private String naziv;
     private String dimenzije;
     private String namjena;
-    private Date dostupnost;
+    private String dostupnost;
     private BigDecimal cijena;
 
     public String getNaziv() {
@@ -47,11 +47,11 @@ public class Smjestaj extends Entitet{
         this.namjena = namjena;
     }
 
-    public Date getDostupnost() {
+    public String getDostupnost() {
         return dostupnost;
     }
 
-    public void setDostupnost(Date dostupnost) {
+    public void setDostupnost(String dostupnost) {
         this.dostupnost = dostupnost;
     }
 
